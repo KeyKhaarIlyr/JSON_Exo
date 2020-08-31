@@ -14,27 +14,39 @@ include 'src/rooter.php';
 <body>
 	<main class="d-flex justify-content-around">
 		<h1>Exo JSON !</h1>
-		<div class="card mb-3">
+		<?php
+
+		for ($i = 0; $i < 6; $i++)
+
+			echo '<div class="card mb-3">
 			<h3 class="card-header">
 				<?php
-				getInfo("firstName", gaiem);
+				getInfo("firstName", "' . $i . '");
 				echo " ";
-				getInfo("lastName", gaiem);
+				getInfo("lastName", "' . $i . '");
 				?>
 			</h3>
-			<div class="card-body">
-				<h5 class="card-title">Special title treatment</h5>
-				<h6 class="card-subtitle text-muted">Support card subtitle</h6>
-			</div>
-			<div class="card-body">
-				<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-			</div>
 			<ul class="list-group list-group-flush">
-				<li class="list-group-item">Cras justo odio</li>
-				<li class="list-group-item">Dapibus ac facilisis in</li>
-				<li class="list-group-item">Vestibulum at eros</li>
+				<li class="list-group-item">Gender:
+					<?php
+					getInfo("gender", "' . $i . '");
+					?></li>
+				<li class="list-group-item">Age:
+					<?php
+					getInfo("age", "' . $i . '");
+					?></li>
+				<li class="list-group-item">Area:
+					<?php
+					getInfo("area", "' . $i . '");
+					?></li>
+				<li class="list-group-item">Powers:
+					<?php
+					getInfo("powers", "' . $i . '");
+					?></li>
 			</ul>
-		</div>
+		</div>';
+
+		?>
 	</main>
 </body>
 

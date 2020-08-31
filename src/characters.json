@@ -42,10 +42,7 @@
     "powers": {
         "0": "Creation Magic",
         "1": "None",
-        "2": {
-            "0": "Cristal Creation",
-            "1": "Illusions"
-        },
+        "2": "Cristal Creation & Illusions",
         "3": "None",
         "4": "Mortal Reminder",
         "5": "Dragon Transformation"
