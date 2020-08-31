@@ -16,35 +16,27 @@ include 'src/rooter.php';
 		<h1>Exo JSON !</h1>
 		<?php
 
-		for ($i = 0; $i < 6; $i++)
-
+		for ($i = 0; $i < 6; $i++) {
 			echo '<div class="card mb-3">
-			<h3 class="card-header">
-				<?php
-				getInfo("firstName", "' . $i . '");
-				echo " ";
-				getInfo("lastName", "' . $i . '");
+			<h3 class="card-header"> ' .
+				getInfo("firstName", $i) . ' '
+				.
+				getInfo("lastName", $i) . '
 				?>
 			</h3>
 			<ul class="list-group list-group-flush">
-				<li class="list-group-item">Gender:
-					<?php
-					getInfo("gender", "' . $i . '");
-					?></li>
-				<li class="list-group-item">Age:
-					<?php
-					getInfo("age", "' . $i . '");
-					?></li>
-				<li class="list-group-item">Area:
-					<?php
-					getInfo("area", "' . $i . '");
-					?></li>
-				<li class="list-group-item">Powers:
-					<?php
-					getInfo("powers", "' . $i . '");
-					?></li>
+				<li class="list-group-item">Gender: 
+					' . getInfo("gender", $i) . '
+					</li>
+				<li class="list-group-item">Age: ' .
+				getInfo("age", $i) . '</li>
+				<li class="list-group-item">Area: ' .
+				getInfo("area", $i) . '</li>
+				<li class="list-group-item">Powers: ' .
+				getInfo("powers", $i) . '</li>
 			</ul>
 		</div>';
+		}
 
 		?>
 	</main>
