@@ -1,0 +1,53 @@
+{
+    "firstName": {
+        "0": "Gaïem",
+        "1": "Meika",
+        "2": "Irene",
+        "3": "Sao",
+        "4": "Z",
+        "5": "Sorgoh"
+    },
+    "lastName": {
+        "0": "Khertz",
+        "1": "Khaar Ilyr",
+        "2": "Zhu Lei",
+        "3": "Shu",
+        "4": "",
+        "5": ""
+    },
+    "gender": {
+        "0": "Male",
+        "1": "Male",
+        "2": "Female",
+        "3": "Female",
+        "4": "Non Binary",
+        "5": "Male"
+    },
+    "age": {
+        "0": "18",
+        "1": "21",
+        "2": "33",
+        "3": "24",
+        "4": "387",
+        "5": "16"
+    },
+    "area": {
+        "0": "Cursed Desert",
+        "1": "Cursed Desert",
+        "2": "Zhu Lei's Impire Capital",
+        "3": "Zhu Lei's Impire province",
+        "4": "Unknown",
+        "5": "Other Dimension"
+    },
+    "powers": {
+        "0": "Creation Magic",
+        "1": "None",
+        "2": {
+            "0": "Cristal Creation",
+            "1": "Illusions"
+        },
+        "3": "None",
+        "4": "Mortal Reminder",
+        "5": "Dragon Transformation"
+    }
+}
